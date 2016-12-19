@@ -1,7 +1,7 @@
 file = open('KotlinSupportLibrary_AppCompatActivity.kt')
 
-print("|Function|Description|Arguments|Return")
-print("|:---:|---|:---:|:---:")
+print("|{:30s}|{:20s}|{:40s}|{:10s}|".format("Function", "Description", "Arguments", "Return"))
+print('|' + '-'*30 + '|' + '-'*20 + '|' + '-'*40 + '|' + '-'*10)
 
 for line in file:
     if 'fun ' in line:
@@ -17,4 +17,4 @@ for line in file:
         except IndexError:
             rvalue = ''
 
-        print("|{}|description|{}|{}|".format(function, arguments, rvalue))
+        print("|{:30s}|{:20s}|{:40s}|{:10s}|".format(function, "description", arguments, rvalue))
