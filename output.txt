@@ -1,0 +1,114 @@
+
+
+###KotlinSupportLibrary_Any.kt
+|Function                                          |Description                   |Arguments                                                                                           |Return                   |
+|--------------------------------------------------|------------------------------|----------------------------------------------------------------------------------------------------|-------------------------
+|```log```                                         |No description available yet. |```content: String, level: LogLevel = LogLevel.WARNING```                                           |``` Unit ```             |
+|```random```                                      |No description available yet. |```max: Int```                                                                                      |``` Int ```              |
+|```notifySubscribers```                           |No description available yet. |```event: Events, payload: Any?```                                                                  |``` Unit ```             |
+|```addEventSubscriber```                          |No description available yet. |```event: Events, subscriber: ISubscriber```                                                        |``` Unit ```             |
+|```removeEventSubscriber```                       |No description available yet. |```event: Events, subscriber: ISubscriber```                                                        |``` Unit ```             |
+
+
+###KotlinSupportLibrary_AppCompatActivity.kt
+|Function                                          |Description                   |Arguments                                                                                           |Return                   |
+|--------------------------------------------------|------------------------------|----------------------------------------------------------------------------------------------------|-------------------------
+|```showInputDialog```                             |No description available yet. |no args                                                                                             |``` Unit ```             |
+|```showUnderConstructionPopUp```                  |No description available yet. |``````                                                                                              |``` Unit ```             |
+|```showErrorPopUp```                              |No description available yet. |```content: String```                                                                               |``` Unit ```             |
+|```showWarningPopUp```                            |No description available yet. |```content: String```                                                                               |``` Unit ```             |
+|```showPopUp```                                   |No description available yet. |no args                                                                                             |``` Unit ```             |
+|```paintStatusBar```                              |No description available yet. |```color: Int```                                                                                    |``` Unit ```             |
+|```showSoftKeyboard```                            |No description available yet. |``````                                                                                              |``` Unit ```             |
+|```showWarningPopUp```                            |No description available yet. |```content: Int```                                                                                  |``` Unit ```             |
+|```showErrorPopUp```                              |No description available yet. |```content: Int```                                                                                  |``` Unit ```             |
+|```showPopUp```                                   |No description available yet. |```title: Int, content: Int```                                                                      |``` Unit ```             |
+|```showCircularProgressBar```                     |No description available yet. |``````                                                                                              |``` Unit ```             |
+|```hideCircularProgressBar```                     |No description available yet. |``````                                                                                              |``` Unit ```             |
+|```showIndeterminateProgressBar```                |No description available yet. |```color: Int = -1```                                                                               |``` Unit ```             |
+|```hideIndeterminateProgressBar```                |No description available yet. |``````                                                                                              |``` Unit ```             |
+|```takeScreenShot```                              |No description available yet. |no args                                                                                             |``` Unit ```             |
+|```writeFile```                                   |No description available yet. |```file: File```                                                                                    |``` Unit ```             |
+|```createFile```                                  |No description available yet. |no args                                                                                             |``` Unit ```             |
+|```createScreenShotDir```                         |No description available yet. |```location: DirectoryPath, path: String```                                                         |``` File ```             |
+|``````                                            |No description available yet. |```extension: String, fName: String```                                                              |``` String ```           |
+|```openScreenShot```                              |No description available yet. |```location: DirectoryPath, path: String```                                                         |``` Unit ```             |
+|```requestPermission```                           |No description available yet. |```permission: String```                                                                            |``` Boolean ```          |
+|```checkPermission```                             |No description available yet. |```permission: String```                                                                            |``` Boolean ```          |
+|```isExternalStorageWritable```                   |No description available yet. |``````                                                                                              |``` Boolean ```          |
+|```sendEmail```                                   |No description available yet. |```sender: Sender, email: Email```                                                                  |``` Unit ```             |
+|```putProperty```                                 |No description available yet. |```key: String, value: Any```                                                                       |``` Unit ```             |
+|```getProperty```                                 |No description available yet. |```key: String, defaultValue: Any```                                                                |``` Any? ```             |
+
+
+###KotlinSupportLibrary_CheckBox.kt
+|Function                                          |Description                   |Arguments                                                                                           |Return                   |
+|--------------------------------------------------|------------------------------|----------------------------------------------------------------------------------------------------|-------------------------
+|```setColor```                                    |No description available yet. |```color: Int```                                                                                    |``` Unit ```             |
+
+
+###KotlinSupportLibrary_Date.kt
+|Function                                          |Description                   |Arguments                                                                                           |Return                   |
+|--------------------------------------------------|------------------------------|----------------------------------------------------------------------------------------------------|-------------------------
+|```format```                                      |No description available yet. |```pattern: String```                                                                               |``` String ```           |
+
+
+###KotlinSupportLibrary_EditText.kt
+|Function                                          |Description                   |Arguments                                                                                           |Return                   |
+|--------------------------------------------------|------------------------------|----------------------------------------------------------------------------------------------------|-------------------------
+|```hideSoftKeyboard```                            |No description available yet. |``````                                                                                              |``` Unit ```             |
+|```setStyle```                                    |No description available yet. |```style: Text```                                                                                   |``` Unit ```             |
+
+
+###KotlinSupportLibrary_Fragment.kt
+|Function                                          |Description                   |Arguments                                                                                           |Return                   |
+|--------------------------------------------------|------------------------------|----------------------------------------------------------------------------------------------------|-------------------------
+|```putProperty```                                 |No description available yet. |```key: String, value: Any```                                                                       |``` Unit ```             |
+|```getProperty```                                 |No description available yet. |```key: String, defaultValue: Any```                                                                |``` Any? ```             |
+
+
+###KotlinSupportLibrary_Pair.kt
+|Function                                          |Description                   |Arguments                                                                                           |Return                   |
+|--------------------------------------------------|------------------------------|----------------------------------------------------------------------------------------------------|-------------------------
+|```isBetween ```                                  |No description available yet. |```number : Int```                                                                                  |``` Unit ```             |
+
+
+###KotlinSupportLibrary_RecyclerView.kt
+|Function                                          |Description                   |Arguments                                                                                           |Return                   |
+|--------------------------------------------------|------------------------------|----------------------------------------------------------------------------------------------------|-------------------------
+|```initListItems```                               |No description available yet. |no args                                                                                             |``` Unit ```             |
+|```fixRecyclerViewSize```                         |No description available yet. |```itemHeight: Int```                                                                               |``` Unit ```             |
+|```fixListViewSize```                             |No description available yet. |```itemHeight: Int```                                                                               |``` Unit ```             |
+|``````                                            |No description available yet. |```view: View, position: Int```                                                                     |``` Unit ```             |
+|``````                                            |No description available yet. |```e: MotionEvent```                                                                                |``` Boolean ```          |
+|``````                                            |No description available yet. |```view: RecyclerView, e: MotionEvent```                                                            |``` Boolean ```          |
+|``````                                            |No description available yet. |```view: RecyclerView, motionEvent: MotionEvent```                                                  |``` Unit ```             |
+|``````                                            |No description available yet. |```disallowIntercept: Boolean```                                                                    |``` Unit ```             |
+
+
+###KotlinSupportLibrary_Snackbar.kt
+|Function                                          |Description                   |Arguments                                                                                           |Return                   |
+|--------------------------------------------------|------------------------------|----------------------------------------------------------------------------------------------------|-------------------------
+|```snackbar (text: CharSequence, duration: Int = Snackbar.LENGTH_SHORT, init: Snackbar.```|No description available yet. |```text: CharSequence, duration: Int = Snackbar.LENGTH_SHORT, init: Snackbar.(```                   |``` Snackbar ```         |
+|```snackbar (text: Int, duration: Int = Snackbar.LENGTH_SHORT, init: Snackbar.```|No description available yet. |```text: Int, duration: Int = Snackbar.LENGTH_SHORT, init: Snackbar.(```                            |``` Snackbar ```         |
+|```snackbar (text: CharSequence, duration: Int = Snackbar.LENGTH_SHORT, init: Snackbar.```|No description available yet. |```text: CharSequence, duration: Int = Snackbar.LENGTH_SHORT, init: Snackbar.(```                   |``` Unit ```             |
+|```snackbar (text: Int, duration: Int = Snackbar.LENGTH_SHORT, init: Snackbar.```|No description available yet. |```text: Int, duration: Int = Snackbar.LENGTH_SHORT, init: Snackbar.(```                            |``` Unit ```             |
+|```snackbar (text: CharSequence, duration: Int = Snackbar.LENGTH_SHORT, init: Snackbar.```|No description available yet. |```text: CharSequence, duration: Int = Snackbar.LENGTH_SHORT, init: Snackbar.(```                   |``` Unit ```             |
+|```snackbar (text: Int, duration: Int = Snackbar.LENGTH_SHORT, init: Snackbar.```|No description available yet. |```text: Int, duration: Int = Snackbar.LENGTH_SHORT, init: Snackbar.(```                            |``` Unit ```             |
+|```customSnackbar ```                             |No description available yet. |no args                                                                                             |``` Unit ```             |
+
+
+###KotlinSupportLibrary_TextView.kt
+|Function                                          |Description                   |Arguments                                                                                           |Return                   |
+|--------------------------------------------------|------------------------------|----------------------------------------------------------------------------------------------------|-------------------------
+|```slideHorizontal```                             |No description available yet. |``````                                                                                              |``` Unit ```             |
+|```addSoftwareKeyboardListener```                 |No description available yet. |```listener: SoftKeyboard.SoftKeyboardListener```                                                   |``` Unit ```             |
+|```setStyle```                                    |No description available yet. |```style: Text```                                                                                   |``` Unit ```             |
+
+
+###KotlinSupportLibrary_View.kt
+|Function                                          |Description                   |Arguments                                                                                           |Return                   |
+|--------------------------------------------------|------------------------------|----------------------------------------------------------------------------------------------------|-------------------------
+|```getBitmapDrawable```                           |No description available yet. |``````                                                                                              |``` BitmapDrawable ```   |
+|```getBitmap```                                   |No description available yet. |``````                                                                                              |``` Bitmap ```           |
+|```locateView```                                  |No description available yet. |``````                                                                                              |``` Rect? ```            |
