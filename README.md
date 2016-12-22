@@ -83,7 +83,7 @@ public class User {
  - REF01: Hunt, A. & Thomas, D. (1999). The Power of Plain Text. In The Pragmatic Programmer: From Journeyman to Master. Boston, Mass. Addson Wesley.
  
  <a name="license">
-## License
+# License
 Copyright 2016 Edgar da Silva Fernandes
 
 Licensed under the Apache License, Version 2.0 (the "License");
