@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<entity name="User" type="class" visibility="public" persistable="true">
+  <member name="id" type="Double" visibility="private" persistable="true" />
+  <member name="name" type="String" visibility="private" persistable="true" />
+  <member name="surname" type="String" visibility="private" persistable="true" />
+  <member name="nickname" type="String" visibility="private" persistable="true" />
+  <member name="email" type="String" visibility="private" persistable="true" />
+  <member name="cpf" type="String" visibility="private" persistable="true" />
+  <member name="phone1" type="String" visibility="private" persistable="true" />
+  <member name="phone2" type="String" visibility="private" persistable="true" />
+  <member name="age" type="Date" visibility="private" persistable="true" />
+  <member name="address" type="String" visibility="private" persistable="true" />
+</entity>
